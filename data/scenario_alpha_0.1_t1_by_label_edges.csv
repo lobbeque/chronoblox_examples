@@ -1,0 +1,13 @@
+source,target,weight,phase,type,diac_component
+1_t1,1_t2,1.0,t1,diac,0
+2_t1,2_t2,1.0,t1,diac,1
+3_t1,3_t2,1.0,t1,diac,2
+4_t1,4_t2,1.0,t1,diac,3
+1_t2,1_t3,1.0,t2,diac,0
+2_t2,2_t3,1.0,t2,diac,1
+3_t2,3_t3,1.0,t2,diac,2
+4_t2,4_t3,1.0,t2,diac,3
+1_t3,1_t4,1.0,t3,diac,0
+2_t3,2_t4,1.0,t3,diac,1
+3_t3,3_t4,1.0,t3,diac,2
+4_t3,4_t4,1.0,t3,diac,3
