@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- p5.js & D3 -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.8.0/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script type="text/javascript" src="./z_axis_lib/addScreenPositionFunction.js"></script>
+
+    <!-- visualization js file -->
+    <script type="text/javascript" src="sketch.js"></script>
+    
+    <!-- css -->
+    <style type="text/css">
+
+      @font-face {
+        font-family: NeueKabel;
+        src: url("lib/NeueKabel.otf") format("opentype");
+      }
+
+      @font-face {
+        font-family: NeueKabel;
+        font-weight: bold;
+        src: url("lib/NeueKabel-Bold.otf") format("opentype");
+      }      
+
+
+      body {
+        height: 905vh;        
+        margin-left: 2%;
+        font-family: "NeueKabel";
+        font-weight: bold;
+        font-size: 16px;
+        color: #0d1824;
+      }
+
+      .footer {
+        margin-top: 10px;
+        font-size: 12px;
+      }      
+
+      .check-form {
+        padding-top: 10px;  
+        padding-bottom: 10px;
+      }
+
+      .check {
+        cursor: pointer;
+      }    
+    </style>
+  
+    <title>Chronoblox - 3D view test</title>
+
+  </head>
+  <body>
+    <main>
+      <div class="check-form">
+        <form>
+          <label class="checkbox-inline">
+            <input class="check" type="checkbox" value="" onchange="clicked('rotation')" checked="checked" autocomplete="off">rotation
+          </label>       
+        </form>
+      </div> 
+    </main>
+  </body>
+  <script type="text/javascript">
+    window.rotation = true;
+  </script> 
+  <div class="footer">
+    <!-- <p>Cams (Cnrs/Ehess, <script>document.write(/\d{4}/.exec(Date())[0])</script>)</p> -->
+  </div>  
+</html>

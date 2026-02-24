@@ -1,0 +1,22 @@
+@font-face {
+  font-family: NeueKabel;
+  src: url("NeueKabel.otf") format("opentype");
+}
+
+body {
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  color: #0d1824;
+}
+
+.check-form {
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  color: #0d1824;
+  padding-top: 10px;  
+  padding-bottom: 10px;
+}
+
+.check {
+  cursor: pointer;
+}
